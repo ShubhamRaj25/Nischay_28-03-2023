@@ -1,0 +1,134 @@
+.body {
+  background-color: black;
+  height: 100px;
+  margin: -8px;
+  display: flex;
+}
+
+#navbarimage {
+  height: 40px;
+
+  margin-left: 6%;
+  width: auto;
+  margin-left: 133px;
+  margin-top: 34px;
+}
+#gap {
+  width: 60%;
+  margin-left: 85px;
+}
+#dropdown {
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+  display: flex;
+}
+#useravatar {
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+}
+#quote {
+  font-size: 18px;
+  color: white;
+  margin-left: 10px;
+}
+#welcome {
+  color: #999999;
+  font-size: 14px;
+}
+#logoutbutton {
+  background-color: black;
+}
+#logout {
+  background-color: white;
+  color: black;
+}
+#dropdown-basic-button {
+  background: wheat;
+}
+#option {
+  background-color: white;
+}
+.body2 {
+  background-color: #212529;
+  height: 50px;
+
+  display: flex;
+  margin: 7px;
+  margin-left: -9px;
+  margin-right: -9px;
+}
+
+.home {
+  height: 20px;
+  width: 100%;
+  padding: 1px;
+}
+.container {
+  align-items: center;
+
+  display: flex;
+}
+.tags {
+  display: flex;
+  color: white;
+}
+.images {
+  margin-left: 6px;
+  margin-top: 3px;
+}
+.text {
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.gapp {
+  margin-left: 200px;
+}
+#dropdown {
+  background-color: black;
+  display: flex;
+}
+.title {
+  margin-top: -14px;
+  display: flex;
+}
+.item {
+  /* margin-top: 0; */
+  /* margin-left: 10px; */
+  /* margin-bottom: 10px; */
+  /* background-color: white; */
+  /* height: 25px; */
+  /* width: 120px; */
+  align-items: center;
+}
+#signout {
+  margin-left: 4px;
+  align-self: auto;
+  color: red;
+  text-align: unset;
+}
+#any {
+  height: 70px;
+  margin-top: 6px;
+}
+
+.imgg {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  height: 20px;
+}
+
+#a2 {
+  background-color: #212529;
+  width: 130px;
+}
+#a1 {
+  display: flex;
+}
+#a3 {
+  width: 60px;
+}
+.hover {
+  cursor: pointer;
+}

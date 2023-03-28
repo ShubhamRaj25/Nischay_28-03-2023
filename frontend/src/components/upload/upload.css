@@ -1,0 +1,105 @@
+.searchbar_upload {
+  width: 45%;
+  margin-left: auto;
+  height: 46px;
+  margin-top: 18px;
+  display: block;
+  border: none;
+  border-bottom-style: outset;
+  margin-right: auto;
+  text-align: center;
+}
+.searchbar_upload:focus {
+  outline: none;
+}
+.table_upload {
+  width: 90%;
+  max-height: 400px;
+  overflow-y: scroll;
+  /* overflow: hidden; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.table_upload thead {
+  position: sticky;
+  top: 0px;
+  margin: 1 1 1 1;
+}
+.table_fixed_upload table {
+  border: 1px solid black;
+}
+.table_fixed_upload {
+  width: 100%;
+}
+.table_fixed_upload thead {
+  background: black;
+  opacity: 1;
+}
+.table_fixed_upload th {
+  background: black;
+  padding: 7px;
+  font-size: medium;
+}
+.table_fixed_upload td {
+  padding: 15px;
+  font-size: medium;
+  border: 1px solid;
+}
+
+.table_upload::-webkit-scrollbar {
+  display: none;
+}
+.upload_table_header {
+  color: white;
+}
+
+.pdfContainer {
+  width: 100%;
+  height: 900px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdfviewercontainer {
+  margin-top: 5px;
+  width: 93%;
+  margin-left: 3.5%;
+  height: 600px;
+  padding: 20px;
+}
+.uploadbutton {
+  background: black;
+  margin-left: 4%;
+  width: 92%;
+  margin-top: 4%;
+  color: white;
+  margin-bottom: 20px;
+  height: 30px;
+}
+.MuiButtonBase-root {
+  background: black;
+  color: white;
+}
+
+.MuiPaper-elevation2 {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+.MuiTypography-root.MuiTypography-h6 {
+  font-size: xx-large;
+}
+
+.removebutton_uploadpage {
+  width: 100%;
+
+  background: white;
+}
+
+.upload_table {
+  width: 92%;
+  margin-left: 4%;
+}

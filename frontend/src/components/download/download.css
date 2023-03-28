@@ -1,0 +1,46 @@
+.table_downloadpage {
+  width: auto;
+  max-height: 600px;
+  overflow-y: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: flex;
+  padding: 10px;
+}
+.table_downloadpage thead {
+  color: white;
+  position: sticky;
+  top: 0px;
+  margin: 1 1 1 1;
+}
+.table_fixed_download table {
+  border: 1px solid black;
+}
+.table_fixed_download {
+  width: 100%;
+}
+.table_fixed_download thead {
+  background: black;
+  opacity: 1;
+}
+.table_fixed_download th {
+  background: black;
+  padding: 15px;
+  font-size: medium;
+}
+.table_fixed_download td {
+  padding: 15px;
+  font-size: medium;
+  border: 1px solid;
+}
+
+.table_downloadpage::-webkit-scrollbar {
+  display: none;
+}
+.downloadpage_table_header {
+  color: white;
+}
+.tables_downloadpage {
+  display: flex;
+}
