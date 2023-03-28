@@ -60,7 +60,7 @@
 }
 .paginationLandingPage {
   display: flex;
-  background: #5a5a5a;
+  background: black;
   height: 30px;
 }
 .divv1 {
@@ -73,7 +73,7 @@
   color: white;
 }
 .divv3 {
-  background: #5a5a5a;
+  background: black;
   color: white;
 }
 .table {

@@ -12,7 +12,7 @@ function App() {
   const history = createBrowserHistory();
 
   const [info, setinfo] = useState([]);
-  console.log(info);
+  // console.log(info);
 
   return (
     <div className="App">
@@ -33,7 +33,7 @@ function App() {
           <Route path="/" exact element={<HomePage />} />
           <Route path="/home" element={<LandingPage setinfo={setinfo} />} />
           <Route path="/upload/:radiovalue" element={<Upload />} />
-          <Route path="/download/:radiovalue" element={<Downloadpage />} />
+          {/* <Route path="/download/:radiovalue" element={<Downloadpage />} /> */}
           <Route path="/bureau/:radiovalue" element={<Bureau info={info} />} />
         </Routes>
       </Router>

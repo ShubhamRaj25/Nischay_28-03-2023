@@ -66,8 +66,8 @@
 }
 .container {
   align-items: center;
-
   display: flex;
+  width: auto;
 }
 .tags {
   display: flex;
@@ -127,7 +127,7 @@
   display: flex;
 }
 #a3 {
-  width: 60px;
+  width: 80px;
 }
 .hover {
   cursor: pointer;

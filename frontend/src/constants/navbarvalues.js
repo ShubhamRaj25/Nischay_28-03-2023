@@ -1,7 +1,7 @@
 export const navBarValues = {
   HOME: " /images/home.png",
   UPLOAD: "/images/upload.png",
-  DOWNLOAD: "/images/download.png",
+  // DOWNLOAD: "/images/download.png",
   BUREAU: "/images/bureau.png",
   ANALYZE: "/images/analyze.png",
   SUMMARY: "/images/summary.png",

@@ -103,7 +103,7 @@ const Upload = () => {
 
     postApi(APIADDRESS.UPLOADFILES, formData, false, false).then((response) => {
       if (response == 1) {
-        navigate(`/download/${radiovalue}`);
+        // navigate(`/download/${radiovalue}`);
       }
     });
   };

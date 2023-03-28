@@ -18,7 +18,7 @@ const NavBar = (radiovalue) => {
     if (navigatevalue == undefined) {
       toast.error("Please select a Lead Id first");
     } else if (item == "DOWNLOAD") {
-      navigate(`/download/${navigatevalue}`);
+      // navigate(`/download/${navigatevalue}`);
     } else if (item == "UPLOAD") {
       navigate(`/upload/${navigatevalue}`);
       console.log(item);
