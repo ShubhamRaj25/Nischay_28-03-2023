@@ -12,3 +12,5 @@ admin.site.register(los_lid_generation)
 admin.site.register(bank_bank)
 admin.site.register(customer_allocation)
 admin.site.register(bureau_account_segment_tl)
+admin.site.register(recieved_file_details)
+

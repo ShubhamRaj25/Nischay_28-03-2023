@@ -426,7 +426,7 @@ def uploadBankStatments(request):
             uploaded_file = request.FILES[str(item)]
             key = cutFile(uploaded_file)
             try:
-                pdfs = r'C:\Users\shubhamraj\Downloads\temp' ## pdf storage path
+                pdfs = r'C:\Users\shubhamraj\Desktop\pdf_files' ## pdf storage path
                 os.makedirs(pdfs, exist_ok=True)
                 file_path = os.path.join(pdfs, f'{lead_id}_{next_count}_{key}')
                 with open(file_path, 'wb') as f:
